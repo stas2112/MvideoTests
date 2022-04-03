@@ -1,0 +1,56 @@
+<?xml version= "1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Проверка шапки главной страницы mvideo">
+        <classes>
+            <class name="Tests.CheckingHeaderMvideoHomePageTest"></class>
+        </classes>
+    </test>
+    <test name="Проверка активации кнопки корзины">
+        <classes>
+            <class name="Tests.CheckingActivationShoppingCartButtonTest"></class>
+        </classes>
+    </test>
+    <test name="Переход в корзину">
+        <classes>
+            <class name="Tests.GoToShoppingCartTest"></class>
+        </classes>
+    </test>
+    <test name="Добавление в корзину два товара">
+        <classes>
+            <class name="Tests.AddingTwoProductsToCartTest"></class>
+        </classes>
+    </test>
+    <test name="Поиск товаров">
+        <classes>
+            <class name="Tests.ProductSearchTest"></class>
+        </classes>
+    </test>
+    <test name="Сортировка товаров в листинге">
+        <classes>
+            <class name="Tests.SortingProductsInListingTest"></class>
+        </classes>
+    </test>
+    <test name="Проверка модального окна авторизации клиента">
+        <classes>
+            <class name="Tests.CheckingClientsModalAutorisationWindowTest"></class>
+        </classes>
+    </test>
+    <test name="Проверка добавления товаров в список сравнения">
+        <classes>
+            <class name="Tests.CheckingAdditionProductsToComparisonTest"></class>
+        </classes>
+    </test>
+    <test name="Проверка добавления товара в список избранного">
+        <classes>
+            <class name="Tests.CheckingAdditionOfProductToFavoritesListTest"></class>
+        </classes>
+    </test>
+    <test name="Проверка изменения города">
+        <classes>
+            <class name="Tests.CheckingCityChangeTest"></class>
+        </classes>
+    </test>
+
+</suite>
